@@ -27,10 +27,6 @@ h3 {
     font-weight: bolder;
 }
 
-footer {
-    background-color: rgb(27, 27, 27);
-}
-
 /* LAYOUT */
 
 .container {
@@ -61,6 +57,10 @@ footer {
     margin-top: 80px;
 }
 
+.p-5 {
+    padding: 5px;
+}
+
 /* STILE */
 
 .header-footer-flex {
@@ -68,30 +68,3 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
-
-/* HEADER */
-
-
-/* MAIN */
-
-
-
-/* FOOTER */
-
-.white-txt {
-    color: white;
-}
-
-.right-footer img {
-    width: 20px;
-}
-
-.p-20 {
-    padding: 20px;
-}
-
-.pb-15 {
-    padding-bottom: 15px;
-}
-
-

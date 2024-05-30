@@ -53,7 +53,7 @@ export default {
                 newprice: "99,99 €",
                 oldprice: "",
                 discount: "",
-                label: "Luxury",
+                label: "",
             },
             {
                 visible: "/img/6.webp",
@@ -125,10 +125,6 @@ $red_color: red;
     font-size: 13px;
 }
 
-.p-5 {
-    padding: 5px;
-}
-
 .red-bg {
     background-color: $red_color;
     position: relative;
@@ -173,7 +169,7 @@ $red_color: red;
 }
 
 .clothes-info {
-    bottom: 25px;
+    bottom: 10px;
 }
 
 .red-heart {

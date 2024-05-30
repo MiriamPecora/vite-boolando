@@ -31,7 +31,10 @@
 .header {
     background-color: rgb(248, 111, 32);
     position: fixed;
-    width: 100%;
+    max-width: 100%;
+    padding: 10px 50px;
+    left: 0;
+    right: 0;
     z-index: 1;
 }
 
