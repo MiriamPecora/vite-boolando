@@ -1,0 +1,97 @@
+/* GLOBALI */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 12px;
+}
+ 
+h3 {
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: rgb(27, 27, 27);
+}
+
+/* LAYOUT */
+
+.container {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 1200px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.col-33 {
+    width: calc(100% / 3 - 20px);
+    margin: 0px 10px 0px 10px;
+}
+
+.content {
+    width: 100%;
+}
+
+.margin-top-80 {
+    margin-top: 80px;
+}
+
+/* STILE */
+
+.header-footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* HEADER */
+
+
+/* MAIN */
+
+
+
+/* FOOTER */
+
+.white-txt {
+    color: white;
+}
+
+.right-footer img {
+    width: 20px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+
